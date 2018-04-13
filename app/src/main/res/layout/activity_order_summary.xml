@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.justjava.OrderSummary">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/toolbar_background">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oderSummaryText"
+            android:textSize="20sp"
+            android:textColor="#ffff"/>
+        <ImageView
+            android:contentDescription="@string/imageView"
+            android:id="@+id/star"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/decoration_img"/>
+        <ImageView
+            android:id="@+id/star_img2"
+            android:contentDescription="@string/imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/decoration_img"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/contentDescription"
+            android:src="@drawable/decoration_img"
+            android:layout_marginStart="30dp"/>
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_ordered"
+        android:contentDescription="@string/check_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"/>
+    <TextView
+        android:id="@+id/thank_you"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkbox"
+        android:textSize="20sp"
+        android:textColor="#696969"
+        android:layout_marginTop="14dp"
+        android:layout_centerInParent="true"
+        android:text="@string/thankYou"/>
+    <TextView
+        android:id="@+id/oder_placed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thank_you"
+        android:textSize="15sp"
+        android:layout_centerInParent="true"
+        android:text="@string/placed_text"/>
+
+    <TextView
+        android:id="@+id/order_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="18dp"
+        android:layout_below="@id/oder_placed"
+        android:text="@string/id"/>
+
+    <TextView
+        android:id="@+id/show_order_summary_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="15sp"
+        android:textColor="#109e02"
+        android:layout_marginStart="17dp"
+        android:layout_below="@id/order_id"
+        android:text="@string/showMore"/>
+    <Button
+        android:id="@+id/show_more_button"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/show_more"
+        android:layout_toEndOf="@id/show_order_summary_text"
+        android:layout_below="@id/order_id" />
+
+
+
+
+
+</RelativeLayout>

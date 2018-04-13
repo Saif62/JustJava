@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Just Java</string>
+    <string name="contentDescription">CupImage</string>
+    <string name="circle">circle</string>
+    <string name="coffeeOrder">Coffee Order</string>
+    <string name="visitStore">Visit Store</string>
+    <string name="store">Store</string>
+    <string name="imageView">star</string>
+    <string name="id">order ID:74940954081678</string>
+    <string name="inr">INR</string>
+    <string name="showMore">Show order summary</string>
+    <string name="oderSummaryText">Order Summary</string>
+    <string name="totalP">0</string>
+    <string name="placed_text">Your order has been successfully placed</string>
+    <string name="totalPrice">Payable Amount</string>
+    <string name="thankYou">Thank you for ordered</string>
+    <string name="ready">Please ready your cash.</string>
+    <string name="reach">We will reach soon in your city</string>
+    <string name="symbol">₹</string>
+    <string name="submitOrder">Submit Order</string>
+    <string name="americano">americano</string>
+    <string name="check_icon">Check icon</string>
+    <string name="espresso">espresso</string>
+    <string name="capuccino">capuccino</string>
+    <string name="frapuccino">frapuccino</string>
+    <string name="americanoPrice">0</string>
+    <string name="espressoPrice">0</string>
+    <string name="capuccinoPrice">0</string>
+    <string name="frapuccinoPrice">0</string>
+    <string name="latte">latte</string>
+    <string name="imageButton">ImageButton</string>
+    <string name="iced">iced coffee</string>
+    <string name="orderNow">Order Now</string>
+    <string name="price_value">0</string>
+    <string name="contentDescription2">ImageButton</string>
+</resources>

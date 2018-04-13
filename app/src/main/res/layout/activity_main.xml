@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.justjava.MainActivity">
+
+   <com.example.android.justjava.GradientTextView
+       android:id="@+id/coffee_order"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="25sp"
+       android:layout_marginTop="16dp"
+       android:layout_marginStart="16dp"
+        android:textStyle="bold"
+       android:text="@string/coffeeOrder"/>
+    <ImageView
+        android:contentDescription="@string/circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/circle_shape2" />
+    <ImageView
+        android:contentDescription="@string/circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/circle_shape"/>
+    <ImageView
+        android:contentDescription="@string/circle"
+        android:layout_width="wrap_content"
+        android:layout_toEndOf="@id/coffee_order"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:src="@drawable/gradient_circle"/>
+
+    <ImageView
+        android:id="@+id/cup_animation"
+        android:layout_width="200dp"
+        android:layout_centerInParent="true"
+        android:layout_height="200dp"
+        android:contentDescription="@string/contentDescription"
+        android:src="@drawable/cup_anim_list"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="130dp"
+        android:text="@string/visitStore"
+        android:textSize="16sp"
+        android:textColor="#ffff"
+        android:id="@+id/button"
+        android:layout_marginTop="106dp"
+        android:background="@drawable/buy_button_bg"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/cup_animation"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/circle_shape3"
+        android:contentDescription="@string/circle"/>
+</RelativeLayout>
